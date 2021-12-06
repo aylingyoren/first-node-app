@@ -2,7 +2,7 @@
   "name": "first-node-app",
   "version": "1.0.0",
   "description": "My simple node app",
-  "main": "first-node.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aylingyoren/first-node-app/issues"
   },
-  "homepage": "https://github.com/aylingyoren/first-node-app#readme"
+  "homepage": "https://github.com/aylingyoren/first-node-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
