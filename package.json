@@ -1,0 +1,19 @@
+{
+  "name": "first-node-app",
+  "version": "1.0.0",
+  "description": "My simple node app",
+  "main": "first-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aylingyoren/first-node-app.git"
+  },
+  "author": "Aylin Gyoren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aylingyoren/first-node-app/issues"
+  },
+  "homepage": "https://github.com/aylingyoren/first-node-app#readme"
+}
