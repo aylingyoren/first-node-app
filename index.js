@@ -1,15 +1,18 @@
-// console.log("Hey, Aylin");
+const log = require('./logger');
 
-const express = require("express");
-const app = express();
-const port = 5500;
+log('my name is Aylin.');
 
-app.get("/", function (req, res) {
-  res.send("GET request to homepage");
-});
+// const http = require('http')
 
-// res.sendFile('<file-name>', {root: __dirname});
+// const port = process.env.PORT || 3000
 
-app.listen(port, () => {
-  console.log(`Now listening on port ${port}`);
-});
+// const server = http.createServer((req, res) => {
+//   res.statusCode = 200
+//   res.setHeader('Content-Type', 'text/html')
+//   res.end('<h1>Hello, Aylin!</h1>')
+// })
+
+// server.listen(port, () => {
+//   console.log(`Server running at port ${port}`)
+// })
+

@@ -1,6 +1,7 @@
 {
   "name": "first-node-app",
   "version": "1.0.0",
+  "private": true,
   "description": "My simple node app",
   "main": "index.js",
   "scripts": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/aylingyoren/first-node-app#readme",
   "dependencies": {
+    "axios": "^0.24.0",
     "express": "^4.17.1"
   }
 }
