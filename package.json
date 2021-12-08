@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "description": "My simple node app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,10 @@
   },
   "homepage": "https://github.com/aylingyoren/first-node-app#readme",
   "dependencies": {
-    "axios": "^0.24.0",
     "date-fns": "^2.27.0",
-    "express": "^4.17.1",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
