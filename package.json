@@ -2,7 +2,7 @@
   "name": "first-node-app",
   "version": "1.0.0",
   "private": true,
-  "description": "My simple node app",
+  "description": "My first node app",
   "main": "server.js",
   "scripts": {
     "start": "node server",
@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/aylingyoren/first-node-app#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "date-fns": "^2.27.0",
+    "express": "^4.17.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
