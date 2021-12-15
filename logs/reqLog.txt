@@ -83,3 +83,9 @@
 20211215	11:13:18	18c936de-7486-42fe-ad87-3c9c91565464	GET	undefined	/new-page.html
 20211215	11:13:18	295b302e-ca81-4858-b24e-889d308f840c	GET	undefined	/img/monkey-n-man.jpg
 20211215	11:13:18	b647ed91-1896-4249-b6d0-339e7c04172b	GET	undefined	/favicon.ico
+20211215	11:43:04	58b89da9-4323-49b8-b10a-04127e5a8b39	GET	undefined	/employees
+20211215	11:44:35	6dea666d-d5e5-4330-8edc-3ee0f3b7d137	POST	undefined	/employees
+20211215	11:45:58	2adcd11d-c04e-438f-8e16-d43a25fc595c	POST	undefined	/employees
+20211215	11:48:09	3c69a428-58cf-4bc9-9894-f6618aaffcbc	PUT	undefined	/employees
+20211215	11:49:19	1a962b67-73c0-4d32-8b11-fbdde30654f4	DELETE	undefined	/employees
+20211215	11:50:30	3ace1b1f-725d-4c6c-9e5b-ff46c4928df5	GET	undefined	/employees/1
