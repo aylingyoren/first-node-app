@@ -3,6 +3,8 @@ const router = express.Router();
 const employeesController = require('../../controllers/employeesController');
 
 router.route('/')
+    //for a specific route
+    // .get(verifyJWT, employeesController.getAllEmployees)
     .get(employeesController.getAllEmployees)
     .post(employeesController.createNewEmployee)
     .put(employeesController.updateEmployee)
