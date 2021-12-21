@@ -119,3 +119,6 @@
 20211221	02:07:56	2d7379ee-2a69-4da3-9654-1c04e8ac02a8	POST	undefined	/auth
 20211221	02:08:06	f293151c-a5e7-45be-b5c0-b18e80bb348c	GET	undefined	/employees
 20211221	02:08:28	a5dea829-4633-4abc-b3d5-21f023daa8e7	POST	undefined	/employees
+20211221	03:38:10	84fa78bf-ee59-46cd-a1a2-1ae7258d5cf8	POST	undefined	/auth
+20211221	03:38:59	6585324f-1e92-4f5f-a7c8-a243286a4330	GET	undefined	/refresh
+20211221	03:39:15	d9b82ad7-8e3f-405b-936b-0963f6ceffdd	GET	undefined	/refresh
