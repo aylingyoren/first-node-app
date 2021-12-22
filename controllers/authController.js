@@ -1,6 +1,5 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-require('dotenv').config();
 const path = require("path");
 const fsPromises = require("fs").promises;
 
@@ -17,9 +16,15 @@ const handleLogin = async (req, res) => {
     //Evaluate pwd
     const match = await bcrypt.compare(pwd, foundUser.password);
     if(match) {
+        const roles = Object.values(foundUser.roles);
         //create JWTs
         const accessToken = jwt.sign(
-            { "username": foundUser.username },
+            { 
+                "UserInfo": { 
+                    "username": foundUser.username, 
+                    "roles": roles
+                }
+            },
             process.env.ACCESS_TOKEN_SECRET,
             { expiresIn: '90s' }
         );

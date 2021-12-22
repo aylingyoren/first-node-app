@@ -1,2 +1,3 @@
 20211214	03:44:54	08b0a2ff-637f-4e98-8877-c44b99a1bedb	Error: Not allowed by CORS
 20211215	11:12:22	8d730fef-2815-470c-8967-18757a5d14af	Error: ENOENT: no such file or directory, stat 'C:\Users\User\Documents\GitHub\first-node-app\routes\views\index.html'
+20211222	04:43:04	b2628503-d62f-497a-bbe0-6f46fc726d1d	Error: Cannot set headers after they are sent to the client
